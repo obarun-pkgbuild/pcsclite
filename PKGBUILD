@@ -6,7 +6,7 @@
 pkgname=pcsclite
 pkgver=1.8.23
 _dlid=4235
-pkgrel=2
+pkgrel=3
 pkgdesc="PC/SC Architecture smartcard middleware library"
 arch=(x86_64)
 url="https://alioth.debian.org/projects/pcsclite/"
