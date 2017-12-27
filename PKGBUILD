@@ -30,7 +30,8 @@ build() {
               --enable-ipcdir=/run/pcscd \
               --enable-libudev \
               --enable-usbdropdir=/usr/lib/pcsc/drivers \
-              --with-systemdsystemunitdir=no
+              --with-systemdsystemunitdir=no \
+              --disable-libsystemd
 
   make
 }
