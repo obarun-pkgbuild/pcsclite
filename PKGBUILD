@@ -5,16 +5,15 @@
 
 pkgname=pcsclite
 pkgver=1.8.23
-_dlid=4235
-pkgrel=3
+pkgrel=4
 pkgdesc="PC/SC Architecture smartcard middleware library"
 arch=(x86_64)
-url="https://alioth.debian.org/projects/pcsclite/"
+url='https://pcsclite.apdu.fr/'
 license=('BSD')
 depends=('python')
 makedepends=('pkg-config')
 options=('!docs')
-source=("https://alioth.debian.org/frs/download.php/file/${_dlid}/pcsc-lite-${pkgver}.tar.bz2")
+source=("https://pcsclite.apdu.fr/files/pcsc-lite-${pkgver}.tar.bz2")
 sha256sums=('5a27262586eff39cfd5c19aadc8891dd71c0818d3d629539bd631b958be689c9')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
